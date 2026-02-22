@@ -161,13 +161,17 @@
             <p><strong>Service Area:</strong> Greater Los Angeles</p>
 
             <div class="hero-actions">
-              <a
-                class="btn btn-primary"
-                href="https://wa.me/16264208866"
-                target="_blank"
-                rel="noopener"
+              <a 
+               class="btn btn-primary"
+               href="https://wa.me/16264208866"
+               target="_blank"
+               rel="noopener"
+               onclick="gtag('event', 'whatsapp_click', { 
+               event_category: 'engagement',
+               event_label: 'whatsapp_button'
+               });"
               >
-                Message on WhatsApp
+               WhatsApp
               </a>
 
               <a class="btn btn-ghost" href="mailto:hello@structuredopsdigital.com">
